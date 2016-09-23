@@ -11,6 +11,7 @@ if [[ ! "${response}" -eq '0' ]]; then
 fi
 
 gvm pkgset use "${GVM_NAME}"
+gvm linkthis
 
 mkdir -p "${GOPATH}/src"
 mkdir -p "${GOPATH}/pkg"
