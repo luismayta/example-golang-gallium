@@ -1,0 +1,6 @@
+hash: 150c9babc5b4ab1cc991891d6f2c32553287f6257e32fc03432d9869c6839d8b
+updated: 2016-09-23T09:09:50.762174737-05:00
+imports:
+- name: github.com/alexflint/gallium
+  version: eaa09fb40e62167c23338679700826a17638eb73
+testImports: []
