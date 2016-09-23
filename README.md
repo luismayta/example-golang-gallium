@@ -11,6 +11,14 @@
 [![Test Coverage](https://codeclimate.com/github/luismayta/example-golang-gallium/badges/coverage.svg)](https://codeclimate.com/github/luismayta/example-golang-gallium/coverage)
 </span>
 
+## Requirements
+
+```shell
+$ brew install git-lfs
+$ git lfs install
+$ go get github.com/alexflint/gallium  # will not work without git lfs!
+
+```
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
