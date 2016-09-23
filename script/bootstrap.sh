@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 
+# load source files externals
+if [ -e "$HOME/.pyenv" ]; then
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+fi
+
+[ -r "$HOME/.gvm/scripts/gvm" ] && source "$HOME/.gvm/scripts/gvm"
+
 PROJECT_NAME='example-golang-gallium'
 PYTHON_VERSION=2.7.9
 PYENV_NAME="${PROJECT_NAME}"
